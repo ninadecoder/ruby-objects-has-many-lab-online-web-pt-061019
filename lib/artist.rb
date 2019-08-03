@@ -9,7 +9,7 @@ class Artist
   end
 
   def songs
-    .select{|x| x.songs}
+    Song.select{|x| x.songs}
   end
 
   def add_song(song)
